@@ -6,7 +6,9 @@ author: william pope
 ---
 
 ## BACKGROUND / PROBLEM
-Strengthen an already-existing Facebook brand by acquiring a domain and building a custom, Shopify store
+Strengthen an already-existing Facebook brand by acquiring a domain and building a custom, Shopify store.
+[Olivia And the Bear](https://www.oliviaandbear.com/)<br />
+[Olivia And the Bear FB](https://www.facebook.com/oliviaandthebear/)
 
 ![unsplash.com](./oliviaandbear.jpg)
 
@@ -25,7 +27,5 @@ UI design, Shopify expert
 </ul>
 
 ## OUTCOME
-The store is set to launch this month (February) with good expectations for success. 
-[Olivia And the Bear](https://www.oliviaandbear.com/)
-[Olivia And the Bear FB](https://www.facebook.com/oliviaandthebear/)
+The store is set to launch this month (February) with good expectations for success.
 
