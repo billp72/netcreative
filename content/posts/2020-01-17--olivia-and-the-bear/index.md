@@ -6,7 +6,7 @@ author: william pope
 ---
 
 ## BACKGROUND / PROBLEM
-Strengthen an already-existing Facebook brand by acquiring a domain and building a custom, Shopify store.
+Strengthen an already existing Facebook brand by acquiring a domain and building a custom, Shopify store.
 [Olivia And the Bear](https://www.oliviaandbear.com/)<br />
 [Olivia And the Bear FB](https://www.facebook.com/oliviaandthebear/)
 
