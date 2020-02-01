@@ -89,14 +89,14 @@ const Contact = props => {
                   ]
                 })(<Input name="email" />)}
               </FormItem>
-              <FormItem label="Project Type">
+              <FormItem label="Project">
                 {getFieldDecorator("project", {
-                  validateTrigger: ["onChange", "onBlur"],
                   rules: [
                     {
                       required: true,
                       message: "Please select your project type",
-                      whitespace: true
+                      whitespace: true,
+                      type: "select"
                     }
                   ]
                 })(
@@ -114,7 +114,7 @@ const Contact = props => {
                     { required: true, message: "Please input your message!", whitespace: true }
                   ]
                 })(
-                  <TextArea name="message" placeholder="" autosize={{ minRows: 4, maxRows: 10 }} />
+                  <TextArea name="message" placeholder="describe your project" autosize={{ minRows: 4, maxRows: 10 }} />
                 )}
               </FormItem>
               <FormItem>
