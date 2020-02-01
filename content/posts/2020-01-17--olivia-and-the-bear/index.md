@@ -6,12 +6,12 @@ author: william pope
 ---
 
 ## BACKGROUND / PROBLEM
-Work with business owners to build a store and fashion their brand of children's clothing. Educate the owner about the Shopify platform
+Strengthen an already-existing Facebook brand by acquiring a domain and building a custom, Shopify store
 
 ![unsplash.com](./oliviaandbear.jpg)
 
 ## OBJECTIVE
-Strengthen an already exists on Facebook brand by acquiring a domain and building a custom store on Shopify
+Work with business owners on the look, feel and functionality of their store. Further educate them about the Shopify platform.
 
 ## ROLE
 UI design, Shopify expert
