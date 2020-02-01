@@ -94,9 +94,7 @@ const Contact = props => {
                   rules: [
                     {
                       required: true,
-                      message: "Please select your project type",
-                      whitespace: true,
-                      type: "project"
+                      message: "Please select your project type"
                     }
                   ]
                 })(
