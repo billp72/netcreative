@@ -6,15 +6,15 @@ author: william pope
 ---
 
 ## BACKGROUND / PROBLEM
-Work with business owners to build a store and fashion their brand of children's clothing. Educated the owner about the Shopify platform
+Work with business owners to build a store and fashion their brand of children's clothing. Educate the owner about the Shopify platform
 
 ![unsplash.com](./oliviaandbear.jpg)
 
 ## OBJECTIVE
-Strengthen a brand, that already exists on Facebook, by acquiring a domain and building a custom store on Shopify
+Strengthen an already exists on Facebook brand by acquiring a domain and building a custom store on Shopify
 
 ## ROLE
-UI design
+UI design, Shopify expert
 
 ## STEPS
 <ul class="li-style">
@@ -25,4 +25,4 @@ UI design
 </ul>
 
 ## OUTCOME
-The store is set to launch this month (February) with good expectations for success
+The store is set to launch this month (February) with good expectations for success.

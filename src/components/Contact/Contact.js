@@ -90,18 +90,18 @@ const Contact = props => {
                 })(<Input name="email" />)}
               </FormItem>
               <FormItem label="Project Type">
-                {getFieldDecorator("roleList", {
+                {getFieldDecorator("project", {
                   validateTrigger: ["onChange", "onBlur"],
-                  initialValue: "Select one",
                   rules: [
                     {
                       required: true,
-                      message: "Please select your project",
+                      message: "Please select your project type",
                       whitespace: true
                     }
                   ]
                 })(
-                <Select defaultValue="Select One" style={{ width: 350 }} name="Projecttype">
+                <Select style={{ width: 350 }}>
+                  <Select.Option value="">Select One</Select.Option>
                   <Select.Option value="design">Design</Select.Option>
                   <Select.Option value="development">Development</Select.Option>
                   <Select.Option value="both">Both</Select.Option>
