@@ -23,7 +23,6 @@ const Search = props => {
               <Pagination />
             </InstantSearch>
           )}
-          <h1 style={{color:'orange'}}>Coming Soon...</h1>
       </div>
 
       {/* --- STYLES --- */}
