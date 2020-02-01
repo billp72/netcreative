@@ -90,7 +90,7 @@ const Contact = props => {
                 })(<Input name="email" />)}
               </FormItem>
               <FormItem label="Project">
-                {getFieldDecorator("project", {
+                {getFieldDecorator("select", {
                   rules: [
                     {
                       required: true,
