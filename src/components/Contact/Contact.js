@@ -89,7 +89,7 @@ const Contact = props => {
                   ]
                 })(<Input name="email" />)}
               </FormItem>
-              <FormItem label="Project">
+              <FormItem label="Select">
                 {getFieldDecorator("select", {
                   rules: [
                     {
@@ -98,7 +98,7 @@ const Contact = props => {
                     }
                   ]
                 })(
-                <Select style={{ width: 350 }}>
+                <Select name="select" style={{ width: 350 }}>
                   <Select.Option value="">Select One</Select.Option>
                   <Select.Option value="design">Design</Select.Option>
                   <Select.Option value="development">Development</Select.Option>
