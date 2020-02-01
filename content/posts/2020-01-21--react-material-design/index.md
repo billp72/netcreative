@@ -5,7 +5,7 @@ cover: photo-1490474418585-ba9bad8fd0ea.jpg
 author: william pope
 ---
 
-:100: "If we take anything from Material Design it isn’t how to use color, how your ease timing should be set, or what the resting elevation of an object should be. It’s not the details themselves we take away, it’s how the details combine to create purposeful brand experience...the interface is the brand" ~ [wired](https://www.wired.com/insights/2014/12/google-material-design/)
+:100: "If we take anything from Material Design it isn’t not how to use color, how your ease timing should be set, or what the resting elevation of an object should be. It’s not the details themselves we take away, it’s how the details combine to create purposeful brand experience...the interface is the brand" ~ [wired](https://www.wired.com/insights/2014/12/google-material-design/)
 
 ![unsplash.com](./photo-1490474418585-ba9bad8fd0ea.jpg)
 
