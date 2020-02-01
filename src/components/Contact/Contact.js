@@ -10,7 +10,7 @@ import React from "react";
 
 const FormItem = Form.Item;
 const { TextArea } = Input;
-//const { Option } = Select;
+
 import "antd/lib/form/style/index.css";
 import "antd/lib/input/style/index.css";
 import "antd/lib/button/style/index.css";
@@ -89,7 +89,7 @@ const Contact = props => {
                   ]
                 })(<Input name="email" />)}
               </FormItem>
-              <FormItem label="Select">
+              <FormItem label="Project Type">
                 {getFieldDecorator("select", {
                   rules: [
                     {
@@ -98,7 +98,7 @@ const Contact = props => {
                     }
                   ]
                 })(
-                <Select name="select" style={{ width: 350 }}>
+                <Select style={{ width: 350 }}>
                   <Select.Option value="">Select One</Select.Option>
                   <Select.Option value="design">Design</Select.Option>
                   <Select.Option value="development">Development</Select.Option>
