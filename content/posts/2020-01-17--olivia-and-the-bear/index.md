@@ -25,4 +25,7 @@ UI design, Shopify expert
 </ul>
 
 ## OUTCOME
-The store is set to launch this month (February) with good expectations for success.
+The store is set to launch this month (February) with good expectations for success. 
+[Olivia And the Bear](https://www.oliviaandbear.com/)
+[Olivia And the Bear FB](https://www.facebook.com/oliviaandthebear/)
+
