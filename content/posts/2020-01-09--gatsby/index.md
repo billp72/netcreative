@@ -1,5 +1,5 @@
 ---
-title: Gatsby - the next-gen Javascript website framework
+title: Gatsby - a next generation Javascript website framework
 category: "testimonies"
 cover: photo-1507124484497-b7f446e65519.jpg
 author: william pope
