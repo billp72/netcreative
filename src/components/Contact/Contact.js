@@ -96,7 +96,7 @@ const Contact = props => {
                       required: true,
                       message: "Please select your project type",
                       whitespace: true,
-                      type: "select"
+                      type: "project"
                     }
                   ]
                 })(
