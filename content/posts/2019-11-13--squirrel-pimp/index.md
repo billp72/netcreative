@@ -16,7 +16,7 @@ Make the entire site suitable for mobile screens
 ## ROLE
 UI development
 
-## STEPS
+## ACHIEVEMENTS
 <ul class="li-style">
 <li>Redesign the main menu to a hamburger-style menu when on a mobile devices</li>
 <li>Change, where necessary, margin to text-align, float, flex, or position to help content reflow for mobile</li>

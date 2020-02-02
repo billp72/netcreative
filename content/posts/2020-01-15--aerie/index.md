@@ -16,7 +16,7 @@ Redesign the entire site using Wordpress
 ## ROLE
 UI design and development
 
-## STEPS
+## ACHIEVEMENTS
 <ul class="li-style">
 <li>Choose a suitable Wordpress theme to start building on</li>
 <li>Create a site layout including customizations to the global header/footer, navigation, and internal pages as needed</li> 

@@ -18,7 +18,7 @@ Work with business owners on the look, feel and functionality of their store. Fu
 ## ROLE
 UI design, Shopify expert
 
-## STEPS
+## ACHIEVEMENTS
 <ul class="li-style">
 <li>Selected basic theme to start</li>
 <li>Edit and modify the theme as needed</li>
