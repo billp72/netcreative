@@ -25,7 +25,7 @@ When you rely on one platform for both page creation and content management, ala
 According to benchmark testing, Gatsby outperforms Wordpress and other platforms when page load times were compared. I will say, Wordpress is making strides towards better performance.
 
 ### WHAT ABOUT SEO?
-Without getting too technical, Gatsby renders static HTML pages directly to the browser which are easily indexed by web crawlers. All things being equal, there's no reason a Gatsby site shouldn't rank similar to a Wordpress site on Google. I might even give a slight edge to Gatsby simply for its speed.
+Without getting too technical, Gatsby renders the first page directly to the browser in plain HTML which is easily indexed by web crawlers. All things being equal, there's no reason a Gatsby site shouldn't rank similar to a Wordpress site on Google. I might even give a slight edge to Gatsby simply for its speed.
 
 ### WHAT ARE THE DOWNSIDES?
 Tools like Wordpress are far easier for a layman to use. Gatsby, on the other hand, definitely needs to be developed by a developer. And if the goal is to get a website up yourself, and you're not particularly technical, you might want to try Wix. Parenthetically, just because a Wix site can be gotten up easily, doesn't mean you won't need to spend money on web design. -shameless plug inserted.
