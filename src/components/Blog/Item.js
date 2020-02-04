@@ -2,13 +2,16 @@ import { FaArrowRight } from "react-icons/fa/";
 import { FaCalendar } from "react-icons/fa/";
 import { FaTag } from "react-icons/fa/";
 import { FaUser } from "react-icons/fa/";
+import { FaComment } from "react-icons/fa/";
 import Img from "gatsby-image";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import CommentCount from "../CommentCount";
 
 const Item = props => {
   const {
+    facebook,
     theme,
     post: {
       excerpt,
@@ -44,6 +47,15 @@ const Item = props => {
             {category && (
               <span>
                 <FaTag size={18} /> {category}
+              </span>
+            )}
+            {CommentCount && (
+              <span>
+                <FaComment size={18} />
+                comments
+                <span style={{ fontWeight: 700, marginLeft: "5px" }}>
+                  <CommentCount slug={slug} facebook={facebook} />
+                </span>
               </span>
             )}
           </p>
@@ -241,7 +253,8 @@ const Item = props => {
 
 Item.propTypes = {
   post: PropTypes.object.isRequired,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  facebook: PropTypes.object.isRequired
 };
 
 export default Item;

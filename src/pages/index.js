@@ -49,7 +49,7 @@ class IndexPage extends React.Component {
         <hr ref={this.separator} />
 
         <ThemeContext.Consumer>
-          {theme => <Blog posts={posts} theme={theme} />}
+          {theme => <Blog posts={posts} theme={theme} facebook={facebook} />}
         </ThemeContext.Consumer>
 
         <Seo facebook={facebook} />

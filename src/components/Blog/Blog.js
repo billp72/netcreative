@@ -4,7 +4,7 @@ import React from "react";
 import Item from "./Item";
 
 const Blog = props => {
-  const { posts, theme } = props;
+  const { posts, theme, facebook } = props;
 
   return (
     <React.Fragment>
@@ -17,7 +17,7 @@ const Blog = props => {
                 fields: { slug }
               }
             } = post;
-            return <Item key={slug} post={node} theme={theme} />;
+            return <Item key={slug} post={node} theme={theme} facebook={facebook} />;
           })}
         </ul>
       </main>
@@ -54,7 +54,8 @@ const Blog = props => {
 
 Blog.propTypes = {
   posts: PropTypes.array.isRequired,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  facebook: PropTypes.object.isRequired
 };
 
 export default Blog;
