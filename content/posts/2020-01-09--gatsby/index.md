@@ -25,7 +25,7 @@ Contenful is a good CMS option since it allows for user-managed content from a d
 According to benchmark testing, Gatsby outperforms Wordpress and other platforms when page load times were compared.
 
 ### WHAT ABOUT SEO?
-Without getting too technical, Gatsby renders plain HTML to the browser which is accurately indexed by web crawlers. All things being equal, there's no reason a Gatsby site shouldn't rank similar to a Wordpress site on Google. I might even give a slight edge to Gatsby simply for its speed.
+Without getting too technical, Gatsby renders plain HTML to the browser which is more accurately indexed by web crawlers. All things being equal, there's no reason a Gatsby site shouldn't rank similar to a Wordpress site on Google. I might even give a slight edge to Gatsby simply for its speed.
 
 ### WHAT KINDS OF SITES ARE BEST SUITED FOR GATSBY?
 Gatsby is ideal for sites where social sharing is important. This includes, but is not limited to, e-commerce, blogs and marketing sites. Gatsby is not ideal for apps where lots of dynamic content is involved. This includes, but is also not limited to, real-time trading apps and games. Moreover, if it's necessary for users to log in to see the majority of their content, Gatsby may not be the best tool for the job. (See server-side rendering for a more flexible solution).
