@@ -33,4 +33,4 @@ Gatsby is ideal for sites where social sharing is important. This includes, but 
 ### WHAT ARE THE DOWNSIDES?
 Tools like Wordpress are far easier for a layman to use. While Gatsby, on the other hand, probably needs to be developed by a developer. I've also heard it doesn't scale well to hundered of thousands of pages but I'm holding judgement on that. I guess if the goal is to get a website up yourself, and you're not particularly technical, maybe try Wix. Unfortunately, there's always a trade off for ease-of-use. And in this case, Gatsby is far faster, much less complicated (equalling less downtime), and more secure then those other sites are.
 
-*With the speed of change on the internet being what it is, I'm confident drag-n-drop style Gatsby tools will soon be available. Maybe they already are??*
+*With the speed of change on the internet being what it is, I'm confident a drag-n-drop style Gatsby tools will soon be available. Maybe they already are??*
