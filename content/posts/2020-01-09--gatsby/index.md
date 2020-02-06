@@ -19,7 +19,7 @@ Put simply, Gatsby is a static site generator and modern, Javascript alternative
 Wordpress has dominated the CMS market for a long time. But with advancements in Javascript, I feel Wordpress is due for some competition. I also feel Gatsby is a superior platform in many ways. [Gatsby Starters](https://www.gatsbyjs.org/starters/?v=2)
 
 ### WHY SHOULD I USE A SEPERATE CMS?
-Contenful is well suited for gatsby since it allows you to manage data outside of the file system. Moreover, when you rely on one platform for both page creation and content management, ala Wordpress, you're locking yourself into that platform. Switching now becomes an arduous process of migrating your data to a new platform if you ever decide to change. Keeping your content in the cloud means you never have to worry about it. [Contentful](https://contentful.com)
+Contenful is a good CMS option since it allows for user-managed content from a distributed network. Moreover, when you rely on one platform for both page creation and content management, ala Wordpress, you're locking yourself into that platform. Switching now becomes an arduous process of migrating your data to a new platform if you ever decide to change. Keeping your content in the cloud means you never have to worry about it. [Contentful](https://contentful.com)
 
 ### WHAT ABOUT PERFORMANCE?
 According to benchmark testing, Gatsby outperforms Wordpress and other platforms when page load times were compared.
