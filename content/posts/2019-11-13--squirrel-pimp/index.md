@@ -6,23 +6,23 @@ author: william pope
 ---
 
 ## BACKGROUND / PROBLEM
-The original website was not as responsive as it should be
+This site represents the first run to be present to a client using the clients specifications for workflow, functionality and design
 
 ![unsplash.com](./squirrelpimp.jpg)
 
 ## OBJECTIVE
-Make the entire site suitable for mobile screens
+Work with existing code to add necessary features and fix broken ones
 
 ## ROLE
 UI development
 
 ## ACHIEVEMENTS
 <ul class="li-style">
-<li>Redesign the main menu to a hamburger-style menu when on a mobile devices</li>
-<li>Change, where necessary, margin to text-align, float, flex, or position to help content reflow for mobile</li>
-<li>Add and adjust media queries for content on mobile screens as needed</li>
-<li>Make all appropriate metadata and tag changes to new and existing pages for accessibility and SEO</li>
+<li>Fixed build process using gulp.js</li>
+<li>Add export to CSV file feature when users are accessing work order data</li>
+<li>Simultaneously work on a more robust Angular 8 version of the same application</li>
+<li>Fix bugs as QA and the client discover them</li>
 </ul>
 
 ## OUTCOME
-With some finesse, we were able to make the existing site responsive thereby saving the customer time and money of having to do a complete redesign
+We were able to get all Jira tickets complete such that it could be presented to the client
