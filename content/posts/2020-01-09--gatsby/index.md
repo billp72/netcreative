@@ -31,4 +31,6 @@ Without getting too technical, Gatsby renders plain HTML to the browser which is
 Gatsby is ideal for sites where social sharing is important. This includes, but is not limited to, e-commerce, blogs and marketing sites. Gatsby is not ideal for apps where lots of dynamic content is involved. This includes, but is also not limited to, real-time trading apps and games.
 
 ### WHAT ARE THE DOWNSIDES?
-Tools like Wordpress are far easier for a layman to use. Gatsby, on the other hand, probably needs to be developed by a developer. And if the goal is to get a website up yourself, and you're not particularly technical, you might want to try Wix. (With the speed of change on the internet being what it is, I'm confident drag-n-drop-style, Gatsby - or other static - tools will soon be available).
+Tools like Wordpress are far easier for a layman to use. Gatsby, on the other hand, probably needs to be developed by a developer. And if the goal is to get a website up yourself, and you're not particularly technical, you might want to try Wix. 
+
+*With the speed of change on the internet being what it is, I'm confident drag-n-drop-style, Gatsby - or other static - tools will soon be available. maybe they already are??.*
