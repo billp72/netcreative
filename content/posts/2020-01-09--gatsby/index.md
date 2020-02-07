@@ -21,8 +21,8 @@ Wordpress has dominated the CMS market for a long time. But with advancements in
 ### WHY SHOULD I USE A SEPERATE CMS?
 Contenful allows for user-managed content on a distributed, CDN network. This means content can be delivered to the user on the closest edge. Contentful lets you model your data based on type - images, text etc. Contentful is not associated with any one website builder tool so makes switching between them easy since you won't have to migrate your data. [Contentful](https://contentful.com)
 
-### WHAT ABOUT PERFORMANCE?
-According to benchmark testing, Gatsby outperforms Wordpress and other platforms when page load times were compared.
+### HOW DOES GATSBY'S PERFORMANCE STACK UP?
+According to benchmark testing, Gatsby outperforms, by a significant margin, Wordpress and other platforms when page load times were compared.
 
 ### WHAT ABOUT SEO?
 Without getting too technical, Gatsby renders plain HTML to the browser which is more accurately indexed by web crawlers. All things being equal, there's no reason a Gatsby site shouldn't rank similar to a Wordpress site on Google. I might even give a slight edge to Gatsby simply for its speed.
