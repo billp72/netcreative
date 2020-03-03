@@ -5,9 +5,8 @@ cover: ecommerce.jpg
 author: william pope
 ---
 
-## Custom-built, e-commerce website theme
-Welcome to the new, fast, progressive web 
-
+### Welcome to the new, fast, progressive web
+ 
 ### This template is ideal for
 * Clients selling fewer products or product variants
 * Clients that want a highly customizable website with app-like feel 
