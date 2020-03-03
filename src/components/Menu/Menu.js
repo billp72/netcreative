@@ -6,6 +6,7 @@ import { FaHome } from "react-icons/fa/";
 //import { FaSearch } from "react-icons/fa/";
 import { FaEnvelope } from "react-icons/fa/";
 import { FaTag } from "react-icons/fa/";
+import { FaUser } from "react-icons/fa/";
 
 import Item from "./Item";
 import Expand from "./Expand";
@@ -19,7 +20,8 @@ class Menu extends React.Component {
       to: page.node.fields.slug,
       label: page.node.frontmatter.menuTitle
         ? page.node.frontmatter.menuTitle
-        : page.node.frontmatter.title
+        : page.node.frontmatter.title,
+        icon: FaUser
     }));
 
     this.items = [
