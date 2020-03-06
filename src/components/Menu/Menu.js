@@ -21,13 +21,13 @@ class Menu extends React.Component {
       label: page.node.frontmatter.menuTitle
         ? page.node.frontmatter.menuTitle
         : page.node.frontmatter.title,
-        icon: FaUser
+      icon: FaUser
     }));
 
     this.items = [
       { to: "/", label: "Home", icon: FaHome },
       { to: "/category/", label: "Categories", icon: FaTag },
-     /* { to: "/search/", label: "Search", icon: FaSearch },*/
+      /* { to: "/search/", label: "Search", icon: FaSearch },*/
       ...pages,
       { to: "/contact/", label: "Contact", icon: FaEnvelope }
     ];
@@ -153,14 +153,13 @@ class Menu extends React.Component {
             ))}
           </ul>
           {this.state.hiddenItems.length > 0 && <Expand onClick={this.toggleMenu} theme={theme} />}
-          {open &&
-            screenWidth >= 1024 && (
-              <ul className="hiddenItemList">
-                {this.state.hiddenItems.map(item => (
-                  <Item item={item} key={item.label} hiddenItem theme={theme} />
-                ))}
-              </ul>
-            )}
+          {open && screenWidth >= 1024 && (
+            <ul className="hiddenItemList">
+              {this.state.hiddenItems.map(item => (
+                <Item item={item} key={item.label} hiddenItem theme={theme} />
+              ))}
+            </ul>
+          )}
         </nav>
 
         {/* --- STYLES --- */}

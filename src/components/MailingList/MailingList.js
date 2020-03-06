@@ -4,12 +4,10 @@ import { navigate } from "gatsby";
 import Button from "antd/lib/button";
 import Form from "antd/lib/form";
 import Input from "antd/lib/input";
-import Select from "antd/lib/select";
 import PropTypes from "prop-types";
 import React from "react";
 
 const FormItem = Form.Item;
-const { TextArea } = Input;
 
 import "antd/lib/form/style/index.css";
 import "antd/lib/input/style/index.css";
@@ -17,7 +15,7 @@ import "antd/lib/button/style/index.css";
 import "antd/lib/select/style/index.css";
 import { ThemeContext } from "../../layouts";
 
-const Contact = props => {
+const MailingList = props => {
   const { getFieldDecorator } = props.form;
 
   function encode(data) {
@@ -62,63 +60,24 @@ const Contact = props => {
         {theme => (
           <div className="form">
             <Form
-              name="contact"
+              name="mailing"
               onSubmit={handleSubmit}
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
-              <FormItem label="Name">
-                {getFieldDecorator("name", {
-                  rules: [
-                    {
-                      required: true,
-                      whitespace: true
-                    }
-                  ]
-                })(<Input name="name" />)}
-              </FormItem>
               <FormItem label="E-mail">
                 {getFieldDecorator("email", {
                   rules: [
                     {
                       required: true,
-                      message: "Please input your e-mail address!",
+                      message: "Sign our mailing list!",
                       whitespace: true,
                       type: "email"
                     }
                   ]
                 })(<Input name="email" />)}
               </FormItem>
-              <FormItem label="Project Type">
-                {getFieldDecorator("select", {
-                  rules: [
-                    {
-                      required: true,
-                      message: "Please select your project type"
-                    }
-                  ]
-                })(
-                  <Select style={{ width: 350 }}>
-                    <Select.Option value="">Select One</Select.Option>
-                    <Select.Option value="design">Design</Select.Option>
-                    <Select.Option value="development">Development</Select.Option>
-                    <Select.Option value="both">Both</Select.Option>
-                  </Select>
-                )}
-              </FormItem>
-              <FormItem label="Message">
-                {getFieldDecorator("message", {
-                  rules: [
-                    { required: true, message: "Please input your message!", whitespace: true }
-                  ]
-                })(
-                  <TextArea
-                    name="message"
-                    placeholder="describe your project"
-                    autosize={{ minRows: 4, maxRows: 10 }}
-                  />
-                )}
-              </FormItem>
+
               <FormItem>
                 <Button type="primary" htmlType="submit">
                   Submit
@@ -182,10 +141,10 @@ const Contact = props => {
   );
 };
 
-Contact.propTypes = {
+MailingList.propTypes = {
   form: PropTypes.object
 };
 
-const ContactForm = Form.create({})(Contact);
+const MailingForm = Form.create({})(MailingList);
 
-export default ContactForm;
+export default MailingForm;

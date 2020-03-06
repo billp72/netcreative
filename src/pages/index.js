@@ -5,6 +5,8 @@ import { ThemeContext } from "../layouts";
 import Blog from "../components/Blog";
 import Hero from "../components/Hero";
 import Seo from "../components/Seo";
+import Modal from "../modal/modal";
+import MailingForm from "../components/MailingList";
 
 class IndexPage extends React.Component {
   separator = React.createRef();
@@ -47,6 +49,15 @@ class IndexPage extends React.Component {
         </ThemeContext.Consumer>
 
         <hr ref={this.separator} />
+
+        {/*<ThemeContext.Consumer>
+          {theme => (
+            <Modal>
+              <div>Join the mailing list</div>
+              <MailingForm theme={theme} />
+            </Modal>
+          )}
+          </ThemeContext.Consumer>*/}
 
         <ThemeContext.Consumer>
           {theme => <Blog posts={posts} theme={theme} facebook={facebook} />}

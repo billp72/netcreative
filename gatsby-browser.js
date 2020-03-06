@@ -3,5 +3,11 @@
  *
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
+import React from "react";
+import ModalProvider from "./src/modalProvider/provider";
 
- // You can delete this file if you're not using it
+// React Context in Browser
+// eslint-disable-next-line react/prop-types
+export const wrapRootElement = ({ element }) => {
+  return <ModalProvider>{element}</ModalProvider>;
+};
