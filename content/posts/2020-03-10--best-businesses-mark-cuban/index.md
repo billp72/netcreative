@@ -18,7 +18,7 @@ Let's examine the bartending idea for a minute since it's one of my favorite sug
 Perhaps the best way to break into a new industry and learn is to get a job with Amazon or Google. You might even be able to get customers from that job somehow. Talk to your co-workers or the sales department and tell them what you have in mind. This goes for nearly every business in the high-tech world - get a job in that industry, first to learn about it then go out to conquer it. Cuban is out to lunch with his advice on this. Given Cuban's hatred of being a subordinate, I say take a lot of what he says about your career with a grain of salt. And take everything NBC's "Make it" has to say with a grain of salt.
 
 __As of this publication, the CNBC article must have edited out where Mark Cuban suggests people quit their jobs to become bartenders. I promise it was in there at one time though. I guess I'm not the only one that thought it was bad advice.
-If anyone reading this knows has the article with it in there, please add it in the comments.__ [Article](https://www.cnbc.com/2019/03/18/billionaire-shark-tank-judge-mark-cuban-if-i-were-to-start-a-business-today-heres-what-it-would-be.html)
+If anyone reading this has the article with it in there, please add it in the comments.__ [Article](https://www.cnbc.com/2019/03/18/billionaire-shark-tank-judge-mark-cuban-if-i-were-to-start-a-business-today-heres-what-it-would-be.html)
 
 
 
