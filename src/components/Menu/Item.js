@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
-
+import { ModalContext } from "../../layouts";
 const Item = props => {
-  const { theme, item: { label, to, icon: Icon } = {}, onClick } = props;
-  /*if (open) {
+  let modal;
+  const { theme, item: { label, to, open, icon: Icon } = {}, onClick } = props;
+  if (open) {
     modal = (
       <ModalContext.Consumer>
         {({ showModal }) => (
@@ -14,7 +15,7 @@ const Item = props => {
         )}
       </ModalContext.Consumer>
     );
-  }*/
+  }
   return (
     <React.Fragment>
       <li className={"hiddenItem" in props ? "hiddenItem" : "item"} key={label}>
@@ -26,6 +27,7 @@ const Item = props => {
         >
           {Icon && <Icon />} {label}
         </Link>
+        {modal}
       </li>
 
       {/* --- STYLES --- */}
@@ -111,7 +113,8 @@ Item.propTypes = {
   hidden: PropTypes.bool,
   onClick: PropTypes.func,
   icon: PropTypes.func,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  open: PropTypes.bool
 };
 
 export default Item;

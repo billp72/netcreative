@@ -53,7 +53,7 @@ class IndexPage extends React.Component {
         {/*<ThemeContext.Consumer>
           {theme => (
             <Modal>
-              <div>Join the mailing list</div>
+              <div style={{marginBottom:"10px"}}>Join the mailing list</div>
               <MailingForm theme={theme} />
             </Modal>
           )}

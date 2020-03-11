@@ -42,7 +42,7 @@ const MailingList = props => {
     })
       .then(() => {
         console.log("Form submission success");
-        navigate("/success");
+        navigate("/emailsuccess");
       })
       .catch(error => {
         console.error("Form submission error:", error);
@@ -65,17 +65,17 @@ const MailingList = props => {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
-              <FormItem label="E-mail">
+              <FormItem label="">
                 {getFieldDecorator("email", {
                   rules: [
                     {
                       required: true,
-                      message: "Sign our mailing list!",
+                      message: "Incorrect format!",
                       whitespace: true,
                       type: "email"
                     }
                   ]
-                })(<Input name="email" />)}
+                })(<Input placeholder="Enter email" name="email" />)}
               </FormItem>
 
               <FormItem>

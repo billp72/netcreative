@@ -68,17 +68,18 @@ export default class Modal extends PureComponent {
         <style jsx>{`
           .btn-close {
             -webkit-appearance: none;
-            background-color: #fff;
+            background-color: #709425;
             border-radius: 5px;
             border: none;
-            color: #757575;
+            color: white;
             border: 1px solid #ddd;
             cursor: pointer;
             font-family: inherit;
             font-size: 1.3rem;
             font-weight: 500;
-            margin: 4rem 0 2rem;
-            padding: 1rem 2rem;
+            margin: 0;
+            float: right;
+            padding: .5rem 1rem;
             text-transform: uppercase;
             transition: 0.2s background-color ease;
 
@@ -89,7 +90,8 @@ export default class Modal extends PureComponent {
             }
 
             &:hover {
-              background-color: #f9f9f9;
+              background-color: #dfecc7;
+              color: grey
             }
 
             & + & {
