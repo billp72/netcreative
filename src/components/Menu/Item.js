@@ -4,7 +4,17 @@ import { Link } from "gatsby";
 
 const Item = props => {
   const { theme, item: { label, to, icon: Icon } = {}, onClick } = props;
-
+  /*if (open) {
+    modal = (
+      <ModalContext.Consumer>
+        {({ showModal }) => (
+          <Link to="" className={"hiddenItem" in props ? "inHiddenItem" : ""} onClick={showModal}>
+            Mailing
+          </Link>
+        )}
+      </ModalContext.Consumer>
+    );
+  }*/
   return (
     <React.Fragment>
       <li className={"hiddenItem" in props ? "hiddenItem" : "item"} key={label}>
