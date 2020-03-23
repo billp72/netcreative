@@ -18,7 +18,7 @@ author: william pope
 * Stripe is a payment gateway and sales management tool
 * Algolia (site search)
 * PWA, or progressive web app, is a website that functions and performs similar to a native Android or IOS application
-* A blog
+* A blog [gatsby eCommerce starter](https://gatsby-ecommerce-blog.netlify.com/)
 
 
 ![store pic](./storepic.png)
