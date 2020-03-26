@@ -29,7 +29,7 @@ class IndexPage extends React.Component {
           resize: { src: mobile }
         },
         site: {
-          siteMetadata: { facebook }
+          siteMetadata: { facebook, backgroundIMG }
         }
       }
     } = this.props;
@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
       tablet,
       mobile
     };
-
+ 
     return (
       <React.Fragment>
         <ThemeContext.Consumer>
@@ -58,7 +58,14 @@ class IndexPage extends React.Component {
             </Modal>
           )}
           </ThemeContext.Consumer>*/}
+        <ThemeContext.Consumer>
+          {theme => (
+            <div className="centerImg"></div>
+          )}
+         </ThemeContext.Consumer>
 
+         <hr ref={this.separator} />
+        
         <ThemeContext.Consumer>
           {theme => <Blog posts={posts} theme={theme} facebook={facebook} />}
         </ThemeContext.Consumer>
@@ -69,6 +76,20 @@ class IndexPage extends React.Component {
           hr {
             margin: 0;
             border: 0;
+          }
+          .centerImg {
+            width: 100%; 
+            height: 300px; 
+            background-image: url(${backgroundIMG.img});
+            background-repeat: no-repeat;
+            background-position: center 40px;
+          }
+
+          @below 768px {
+            .centerImg {
+              background-size: 300px 100px;
+              height:125px;
+            }
           }
         `}</style>
       </React.Fragment>
@@ -117,6 +138,9 @@ export const query = graphql`
       siteMetadata {
         facebook {
           appId
+        }
+        backgroundIMG {
+          img
         }
       }
     }

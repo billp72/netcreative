@@ -43,6 +43,9 @@ module.exports = {
         : "",
       indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
     },
+    backgroundIMG: {
+      img: config.backgroundImg
+    },
     facebook: {
       appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : ""
     }
