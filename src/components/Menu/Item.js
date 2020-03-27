@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import { ModalContext } from "../../layouts";
 const Item = props => {
   let modal;
-  const { theme, item: { label, to, open, icon: Icon } = {}, onClick } = props;
+  const { theme, item: { label, to, open, class: Class, icon: Icon } = {}, onClick } = props;
   if (open) {
     modal = (
       <ModalContext.Consumer>
@@ -21,7 +21,7 @@ const Item = props => {
       <li className={"hiddenItem" in props ? "hiddenItem" : "item"} key={label}>
         <Link
           to={to}
-          className={"hiddenItem" in props ? "inHiddenItem" : ""}
+          className={"hiddenItem" in props ? "inHiddenItem" : `${Class || ""}`}
           onClick={onClick}
           data-slug={to}
         >
@@ -33,7 +33,7 @@ const Item = props => {
       {/* --- STYLES --- */}
       <style jsx>{`
         .item,
-        .showItem {
+        .showItem { 
           background: transparent;
           transition: all ${theme.time.duration.default};
           display: flex;
@@ -54,7 +54,7 @@ const Item = props => {
         :global(.itemList .hideItem) {
           display: none;
         }
-
+       
         @from-width desktop {
           .item {
             :global(a) {
@@ -62,6 +62,12 @@ const Item = props => {
               padding: ${theme.space.inset.s};
               transition: all ${theme.time.duration.default};
               border-radius: ${theme.size.radius.small};
+            }
+
+            :global(.highlighted) {
+                background-color:${theme.text.color.primaryInverse};
+                color:${theme.text.color.brand} !important;
+                font-weight:700;
             }
 
             :global(.homepage):not(.fixed) & :global(a) {
