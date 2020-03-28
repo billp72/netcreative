@@ -59,7 +59,7 @@ class IndexPage extends React.Component {
           )}
           </ThemeContext.Consumer>*/}
         
-          <div className="centerImg"></div>
+          <div className="centerImg" style={{backgroundImage: `url(${backgroundIMG.img})`}}></div>
          
          <hr ref={this.separator} />
         
@@ -77,7 +77,6 @@ class IndexPage extends React.Component {
           .centerImg {
             width: 100%; 
             height: 300px; 
-            background-image: url(${backgroundIMG.img});
             background-repeat: no-repeat;
             background-position: center 40px;
           }
