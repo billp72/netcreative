@@ -58,12 +58,9 @@ class IndexPage extends React.Component {
             </Modal>
           )}
           </ThemeContext.Consumer>*/}
-        <ThemeContext.Consumer>
-          {theme => (
-            <div className="centerImg"></div>
-          )}
-         </ThemeContext.Consumer>
-
+        
+          <div className="centerImg"></div>
+         
          <hr ref={this.separator} />
         
         <ThemeContext.Consumer>
