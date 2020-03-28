@@ -90,7 +90,7 @@ const Contact = props => {
                 })(<Input name="email" />)}
               </FormItem>
               <FormItem label="Project Type">
-                {getFieldDecorator("select", {
+                {getFieldDecorator("select1", {
                   rules: [
                     {
                       required: true,
@@ -103,6 +103,25 @@ const Contact = props => {
                     <Select.Option value="design">Design</Select.Option>
                     <Select.Option value="development">Development</Select.Option>
                     <Select.Option value="both">Both</Select.Option>
+                  </Select>
+                )}
+              </FormItem>
+              <FormItem label="Budget">
+                {getFieldDecorator("select2", {
+                  rules: [
+                    {
+                      required: true,
+                      message: "Please select your budget"
+                    }
+                  ]
+                })(
+                  <Select style={{ width: 350 }}>
+                    <Select.Option value="">Select One</Select.Option>
+                    <Select.Option value="500">up to 500</Select.Option>
+                    <Select.Option value="1000">500 - 1000</Select.Option>
+                    <Select.Option value="2000">1000 - 2000</Select.Option>
+                    <Select.Option value="5000">2000 - 5000</Select.Option>
+                    <Select.Option value="10000">10,000 and up</Select.Option>
                   </Select>
                 )}
               </FormItem>
