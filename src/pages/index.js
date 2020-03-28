@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
       tablet,
       mobile
     };
- 
+
     return (
       <React.Fragment>
         <ThemeContext.Consumer>
@@ -58,11 +58,11 @@ class IndexPage extends React.Component {
             </Modal>
           )}
           </ThemeContext.Consumer>*/}
-        
-          <div className="centerImg" style={{backgroundImage: `url(${backgroundIMG.img})`}}></div>
-         
-         <hr ref={this.separator} />
-        
+
+        <div className="centerImg" style={{ backgroundImage: `url(${backgroundIMG.img})` }}></div>
+
+        <hr ref={this.separator} />
+
         <ThemeContext.Consumer>
           {theme => <Blog posts={posts} theme={theme} facebook={facebook} />}
         </ThemeContext.Consumer>
@@ -75,8 +75,8 @@ class IndexPage extends React.Component {
             border: 0;
           }
           .centerImg {
-            width: 100%; 
-            height: 300px; 
+            width: 100%;
+            height: 300px;
             background-repeat: no-repeat;
             background-position: center 40px;
           }
@@ -84,7 +84,7 @@ class IndexPage extends React.Component {
           @below 768px {
             .centerImg {
               background-size: 300px 100px;
-              height:125px;
+              height: 125px;
             }
           }
         `}</style>

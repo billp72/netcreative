@@ -33,7 +33,7 @@ const Item = props => {
       {/* --- STYLES --- */}
       <style jsx>{`
         .item,
-        .showItem { 
+        .showItem {
           background: transparent;
           transition: all ${theme.time.duration.default};
           display: flex;
@@ -54,7 +54,7 @@ const Item = props => {
         :global(.itemList .hideItem) {
           display: none;
         }
-       
+
         @from-width desktop {
           .item {
             :global(a) {
@@ -65,9 +65,9 @@ const Item = props => {
             }
 
             :global(.highlighted) {
-                background-color:${theme.text.color.primaryInverse};
-                color:${theme.text.color.brand} !important;
-                font-weight:700;
+              background-color: ${theme.text.color.primaryInverse};
+              color: ${theme.text.color.brand} !important;
+              font-weight: 700;
             }
 
             :global(.homepage):not(.fixed) & :global(a) {

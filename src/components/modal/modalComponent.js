@@ -79,7 +79,7 @@ export default class Modal extends PureComponent {
             font-weight: 500;
             margin: 0;
             float: right;
-            padding: .5rem 1rem;
+            padding: 0.5rem 1rem;
             text-transform: uppercase;
             transition: 0.2s background-color ease;
 
@@ -91,7 +91,7 @@ export default class Modal extends PureComponent {
 
             &:hover {
               background-color: #dfecc7;
-              color: grey
+              color: grey;
             }
 
             & + & {
