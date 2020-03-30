@@ -25,6 +25,12 @@ const Seo = props => {
       {/* General tags */}
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="apple-mobile-web-app-title" content={title}  />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent"
+      />
       {/* OpenGraph tags */}
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
