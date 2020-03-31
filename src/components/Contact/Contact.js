@@ -90,7 +90,7 @@ const Contact = props => {
                 })(<Input name="email" />)}
               </FormItem>
               <FormItem label="Project Type">
-                {getFieldDecorator("select1", {
+                {getFieldDecorator("type", {
                   rules: [
                     {
                       required: true,
@@ -107,7 +107,7 @@ const Contact = props => {
                 )}
               </FormItem>
               <FormItem label="Budget">
-                {getFieldDecorator("select2", {
+                {getFieldDecorator("budget", {
                   rules: [
                     {
                       required: true,
