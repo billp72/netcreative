@@ -17,8 +17,8 @@ author: william pope
 * Comfortable mobile chat
 * Push notification when a connection is made
 * Easily able to untrack from the map without logging out 
-* compatible with Android devices 4.1 and up
-[Google Play](https://play.google.com/store/apps/details?id=com.ubermeets)
+* Compatible with Android devices 4.1 and up
+* Get app at [Uber Meets](https://play.google.com/store/apps/details?id=com.ubermeets)
 
 
 ![app pic](./mainPhoto1024.jpg)
