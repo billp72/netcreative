@@ -19,10 +19,16 @@ author: william pope
 * Easily able to untrack from the map without logging out 
 * Compatible with Android devices 4.1 and up
 
-### Available
-* [Google Play](https://play.google.com/store/apps/details?id=com.ubermeets)
-* [App Store](https://apps.apple.com/us/app/id1516134474)
+### Availability
 
+<a href="https://play.google.com/store/apps/details?id=com.ubermeets">
+    <img src="gplay.png" />
+</a>
+<br />
+<a href="https://apps.apple.com/us/app/id1516134474">
+    <img src="appstore.png" />
+</a>
+<br />
 
 ![app pic](./mainPhoto1024.jpg)
 
