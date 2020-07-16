@@ -17,7 +17,7 @@ author: william pope
 * Comfortable mobile chat
 * Push notification when a connection is made
 * Easily able to untrack from the map without logging out 
-* Compatible with Android devices 4.1 and up
+* Compatible with Android devices 4.1 and up & iPhone 9+
 
 ### Availability
 
