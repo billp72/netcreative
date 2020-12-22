@@ -6,6 +6,8 @@ author: william pope
 ---
 
 ### Welcome to the new, fast, progressive web
+
+![https://community.shopify.com/c/user/viewprofilepage/user-id/623407](./collaga.jpg)
  
 ### This template is ideal for
 * Clients selling fewer products or product variants
@@ -19,7 +21,4 @@ author: william pope
 * Algolia (site search)
 * PWA, or progressive web app, is a website that functions and performs similar to a native Android or IOS application
 * A blog
-
-
-![https://community.shopify.com/c/user/viewprofilepage/user-id/623407](./collaga.jpg)
 
