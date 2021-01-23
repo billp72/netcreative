@@ -9,7 +9,7 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <h2>Your website represents your business.</h2>
+        <span>Your website represents your business.</span>
         <h3 className="off">
        Target the customers you want and not necessarily the customers you have. 
       </h3>
@@ -35,12 +35,11 @@ const Hero = props => {
           padding-top: ${theme.header.height.homepage};
         }
 
-        h2 {
-          text-align: left;
+        span {
+          text-align: center;
           font-size: ${theme.hero.h1.size};
-          margin: ${theme.space.stack.l};
           color: ${theme.hero.h1.color};
-          line-height: ${theme.hero.h1.lineHeight};
+          padding-bottom:5px;
           text-remove-gap: both 0 "Open Sans";
         }
 
