@@ -8,10 +8,10 @@ menuTitle: With William
 <br />*10 years ago I was a designer - print and some web. Three years after that, I started my developement career* :speech_balloon:
 
 :coffee: **What do you like best about your work?**
-<br />*I get a chance to help smaller businesses relize their true potential. Even with all the tools out there, the most difficult website to build is often your own - it can be challenging to be objective when you are passionate about your work or focused when your business is multifaceted. The tempatation, thus, to do too much is great. A redsign with an expert gives the owner a chance to revisit their business model and make significant changes.* :speech_balloon: 
+<br />*I get a chance to help smaller businesses relize their true potential. Even with all the tools out there, the most difficult website to build is often your own - it can be challenging to be objective when you are passionate about your work or focused when your business is multifaceted. The tempatation, thus, to do too much is great. A redsign with an expert gives the owner a chance to revisit their business model and make significant changes* :speech_balloon: 
 
 :coffee: **What's your approach to working with clients?**
-<br />*When I first meet a client, I usually won't offer anything specific unless they want me too. At this stage, I generally want to know everything I can about the big picture. In this respect, I feel I'm both a business analyst and designer. Ultimately, the key is to be a great listener so you don't end up missing what the customer really wants.* :speech_balloon:
+<br />*When I first meet a client, I usually won't offer anything specific unless they want me to. At this stage, I generally want to know everything I can about the big picture. In this respect, I feel I'm both a business analyst and designer. Ultimately, the key is to be a great listener so you don't end up missing what the customer really wants* :speech_balloon:
 
 :coffee: **What sort of projects have you worked on?**
 <br />*Lots of Javascript projects with a smattering of Wordpress as well. PHP 7.4 is out and I've heard good things about it* :speech_balloon:
