@@ -9,7 +9,10 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <h1>We build websites so you don't have to</h1>
+        <h2>Your website represents your business.</h2>
+        <h3 className="off">
+       Target the customers you want and not necessarily the customers you have. 
+      </h3>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
         </button>
@@ -32,12 +35,21 @@ const Hero = props => {
           padding-top: ${theme.header.height.homepage};
         }
 
-        h1 {
-          text-align: center;
+        h2 {
+          text-align: left;
           font-size: ${theme.hero.h1.size};
           margin: ${theme.space.stack.l};
           color: ${theme.hero.h1.color};
           line-height: ${theme.hero.h1.lineHeight};
+          text-remove-gap: both 0 "Open Sans";
+        }
+
+        h3 {
+          text-align: center;
+          font-size: ${theme.heading.size.h2};
+          margin: ${theme.space.stack.l};
+          color: ${theme.hero.h1.color};
+          line-height: ${theme.heading.lineHeight.h3};
           text-remove-gap: both 0 "Open Sans";
 
           :global(strong) {
@@ -57,8 +69,12 @@ const Hero = props => {
           }
         }
 
+        .off {
+          color:#b5c1f7;
+        }
+
         button {
-          background: ${theme.background.color.brand};
+          background: #a2b1f5;
           border: 0;
           border-radius: 50%;
           font-size: ${theme.font.size.m};

@@ -14,7 +14,7 @@ module.exports = {
 
   /* info */
   headerTitle: "William Pope",
-  headerSubTitle: "portfolio of work & other stuff",
+  headerSubTitle: "portfolio of web work",
 
   /* manifest.json */
   manifestName: "Netcreative - we build websites so you don't have to",
