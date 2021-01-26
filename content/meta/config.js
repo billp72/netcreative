@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: "Netcreative - we build websites so you don't have to", // <title>
+  siteTitle: "Netcreative - Your website is your business", // <title>
   shortSiteTitle: "Netcreative", // <title> ending for posts and pages
-  siteDescription: "The goal is to build branded, performant websites",
+  siteDescription: "We build websites so you don't have to",
   siteUrl: "https://netcreative.org",
   backgroundImg: "techlogos.png",
   // pathPrefix: "",
