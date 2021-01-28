@@ -18,3 +18,12 @@ menuTitle: With William
 
 :coffee: **What technology did you use to build this site?**
 <br />*This site uses the [starter-hero-blog](https://github.com/greglobinski/gatsby-starter-hero-blog) theme from Gatsby. Gatsby is the javascript answer to Wordpress for building high-performance sites with app-like features. [Gatsby](https://www.netcreative.org/gatsby)* :speech_balloon:
+
+<br />
+<a title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/william-r-pope/">
+    <img src="linkedin.png" />
+</a>
+<br />
+<a title="Stackoverflow" target="_blank" href="https://stackoverflow.com/users/1608383/bill-pope?tab=profile">
+    <img src="stackoverflow.png" />
+</a>
