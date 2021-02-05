@@ -24,6 +24,6 @@ menuTitle: With William
     <img src="linkedin.png" />
 </a>
 <br />
-<a title="Stackoverflow" target="_blank" href="https://stackoverflow.com/users/1608383/bill-pope?tab=profile">
+<a title="Stackoverflow" target="_blank" href="https://stackoverflow.com/users/1608383/bill-pope?tab=topactivity">
     <img src="stackoverflow.png" />
 </a>
