@@ -1,5 +1,5 @@
 ---
-title: Metro Meet
+title: Metro Meet App
 category: project
 cover: mainPhoto1024.jpg
 author: william pope
