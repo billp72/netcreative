@@ -9,9 +9,9 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <span>Your website is your business.</span>
+        <span>We build it right so they will come.</span>
         <h3 className="off">
-       Target the customers you want and not necessarily the customers you have. 
+       Mobile app is the new website 
       </h3>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
