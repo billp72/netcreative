@@ -9,9 +9,9 @@ const Hero = props => {
   return (
     <React.Fragment>
       <section className="hero">
-        <span>We build it right so they will come.</span>
+        <span>Web and Mobile development.</span>
         <h3 className="off">
-       Mobile app is the new website 
+       App is the new web 
       </h3>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
