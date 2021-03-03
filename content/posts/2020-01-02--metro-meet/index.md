@@ -1,5 +1,6 @@
 ---
 title: Metro Meet App
+description: meet signles when you on the town or on the run
 category: project
 cover: mainPhoto1024.jpg
 author: william pope

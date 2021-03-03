@@ -1,5 +1,6 @@
 ---
 title: Front-end web development with William
+description: A little about the developer in charge
 menuTitle: With William
 ---
 

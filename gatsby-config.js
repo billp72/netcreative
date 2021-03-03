@@ -15,6 +15,7 @@ const query = `{
         }
         frontmatter {
           title
+          description
         }
       }
     }
@@ -253,6 +254,7 @@ module.exports = {
                       }
                       frontmatter {
                         title
+                        description
                       }
                     }
                   }

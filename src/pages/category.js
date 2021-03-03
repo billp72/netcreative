@@ -71,7 +71,7 @@ const CategoryPage = props => {
         )}
       </ThemeContext.Consumer>
 
-      <Seo facebook={facebook} />
+      <Seo facebook={facebook} data={{frontmatter: {title:"view all categories", description:"view all topic categories"}}} />
     </React.Fragment>
   );
 };

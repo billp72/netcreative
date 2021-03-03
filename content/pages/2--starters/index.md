@@ -1,5 +1,6 @@
 ---
-title: Other GatsbyJS starters
+title: Gatsby starters
+description: Starters provide React components and boilerplate code to get you going fast
 menuTitle: Starters
 ---
 

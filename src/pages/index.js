@@ -5,8 +5,10 @@ import { ThemeContext } from "../layouts";
 import Blog from "../components/Blog";
 import Hero from "../components/Hero";
 import Seo from "../components/Seo";
-import Modal from "../modal/modal";
-import MailingForm from "../components/MailingList";
+import config from "../../content/meta/config";
+
+//import Modal from "../modal/modal";
+//import MailingForm from "../components/MailingList";
 
 class IndexPage extends React.Component {
   separator = React.createRef();
@@ -30,7 +32,8 @@ class IndexPage extends React.Component {
         },
         site: {
           siteMetadata: { facebook, backgroundIMG }
-        }
+        },
+
       }
     } = this.props;
 
@@ -67,7 +70,7 @@ class IndexPage extends React.Component {
           {theme => <Blog posts={posts} theme={theme} facebook={facebook} />}
         </ThemeContext.Consumer>
 
-        <Seo facebook={facebook} />
+        <Seo facebook={facebook} data={{frontmatter:{title:config.siteTitle, description:config.siteDescription}}} />
 
         <style jsx>{`
           hr {
