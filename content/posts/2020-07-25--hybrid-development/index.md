@@ -12,7 +12,7 @@ A hybrid app is simply a cross-platform app that's developed using a common lang
 
 **What is a native app**
 
-A native app is developed for a single device, like an iPhone, and cannot be deployed anywhere else. These apps perform the best since they are written in the same language as the operating system of the device itself.
+A native app is an app developed for a single device, like an iPhone, and cannot be deployed anywhere else. These apps perform the best since they are written in the same language as the operating system of the device itself.
 
 **Advantages of going native**
 
