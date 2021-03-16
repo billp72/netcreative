@@ -20,7 +20,7 @@ Native apps tend to be more predictable in terms of UI and UX (user experience) 
 
 **Advantages of hybrid development**
 
-Speed of development to the greatest number of platforms is dramatically increased and the availablitity of skilled developers is generally higher, as well. Moreover, maintenance costs across all platforms is lower since updates and fixes can be accomplished from a single codebase by a small team of developers.
+The speed of development to multiple platforms is much faster and the availablitity of skilled developers is greater. Maintenance costs are also reduced as you won't need seperate teams to maintain different apps. Depending on the type of app and hybrid framework you chose, users shouldn't notice any difference in performance
 
 Things you should consider before deciding on an app type.
 
