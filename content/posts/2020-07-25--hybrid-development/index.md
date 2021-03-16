@@ -32,7 +32,7 @@ Things you should consider before deciding on an app type.
 
 **Hybrid types and descriptions**
 
-Progressive Web App (PWA) - This style app is most like a traditional website since it runs in the browser and does not integrate any native code. One advantage of a PWA is in having a luancher icon installed on the device itself. The app can be launched both from the browser URL bar and from an icon on the device which then opens it in a browser-like container. <li>Unfortunately, iPhone does not currently allow installations of PWA's. In the absence of a device icon, however, PWA's can still be opened in iPhone browsers</li>
+Progressive Web App (PWA) - This style app is most like a traditional website since it runs in the browser and does not integrate any native code. One advantage of a PWA is in having a luancher icon installed on the device itself. The app can be launched both from the browser URL bar and from an icon on the device which then opens it in a browser-like container. <i>Unfortunately, iPhone does not currently allow installations of PWA's. In the absence of a device icon, however, PWA's can still be opened in iPhone browsers</i>
 
 Webapp - this style app can be installed like a native app and launched from a special UI container on the device which extends its functionality when native triggers are added to the javascript. <i>Phonegap and other third-party services enable this cross functionality.</i>
 
