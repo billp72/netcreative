@@ -8,7 +8,7 @@ author: william pope
 
 **What is the difference between a Webapp and a hybrid app?**
 
-A hybrid app is simply a type of cross-platform app that's developed using a common language for all platforms. A web app is a type of hybrid that's built using javascript, and html but mimics the functionality of a native application. The advantage of hybrid development in general is speed to market.
+A hybrid app is simply a cross-platform app that's developed using a common language. A web app is a type of hybrid that's built using javascript, and html. The advantage of hybrid development in general is speed to market.
 
 **What is a native app**
 
