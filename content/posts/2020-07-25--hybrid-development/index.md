@@ -16,7 +16,7 @@ A native app is developed for a single device, like an iPhone and cannot be depl
 
 **Advantages of going native**
 
-Native apps tend to be more predictable in terms of the user experience and are more performant when the app consumes lots of data. For some types of applications (like games for instance) and for some companies, there's no substitute for native performance and user experience. 
+Native apps tend to be more predictable in terms of UI and UX (user experience) and are more performant, especially when computation is intense. For some types of applications (like games) and for some companies, there's no substitute for native performance and user experience. 
 
 **Advantages of hybrid development**
 
