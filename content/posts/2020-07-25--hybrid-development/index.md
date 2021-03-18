@@ -34,7 +34,7 @@ Things you should consider before deciding on an app type.
 
 ***Progressive Web App (PWA)*** - This style app is most like a traditional website since it runs in the browser and does not integrate any native code. The app can be launched both from the browser URL bar and from an icon on the device itself which then opens it in a browser-like container. <i>Unfortunately, iPhone does not currently allow installations of PWA's. In the absence of a device icon, however, PWA's can still be opened in iPhone browsers</i>
 
-***Webapp*** - this style app can be installed like a native app and launched in a special UI container on the device which extends its functionality when native triggers are added to the javascript. <i>Phonegap and other third-party providers enable this cross-functionality.</i>
+***Webapp*** - this style app can be installed like a native app from the app store and launched in a special UI container on the device which extends its functionality when native triggers are added to the javascript. <i>Phonegap and other third-party providers enable this cross-functionality.</i>
 
 ***Hybrid bridge application*** - this style app runs both in the native environment and in a javascript container simultaneously. The two pieces communicate with each other across a bridge which is optimised for performance. Facebook's React Native dominates this space, and, in my opinion, is one of the best options that balances performance with speed-to-market I've seen.
 
