@@ -38,6 +38,6 @@ Things you should consider before deciding on an app type.
 
 ***Hybrid bridge application*** - this style app runs both in the native environment and in a javascript container simultaneously. The two pieces communicate with each other across a bridge which is optimised for performance. Facebook's React Native dominates this space, and, in my opinion, is one of the best options that balances performance with speed-to-market I've seen.
 
-***Hybrid compiled app*** - this style app is developed using a common language but compiles completely to native code and is the most performant of the hybrids since no bridge is required. The two products that currently dominate this space are Microsoft's Xamerin and Google's Flutter. <i>Due to a massive effort by Google, Flutter is gaining lots of traction lately. Flutter is also a pleasing alternative for React developers since it's designed around the Reactive programming paradigm</i>
+***Hybrid compiled app*** - this style app is developed using a common language but compiles completely to a binary format and is the most performant of the hybrids since no bridge is required. The two products that currently dominate this space are Microsoft's Xamerin and Google's Flutter. <i>Due to a massive effort by Google, Flutter is gaining lots of traction lately. Flutter is also a pleasing alternative for React developers since it's designed around the Reactive programming paradigm</i>
 
 Given the advacements in hybrid technology, I'm amazed at what can be accomplished without sacrificing performance or the user experience.
