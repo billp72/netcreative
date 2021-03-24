@@ -8,7 +8,7 @@ author: william pope
 
 **Low-code no-code**
 
-There are ways to develop applications today that are more affordable, and easier for non-programmers to get started than ever before. 
+There are ways to develop applications today that are more affordable, and easier for non-programmers to get started. 
 And just like website design before it, application development is also moving in the DIY direction. I am talking about no-code and low-code development. 
 
 New low-code/no-code platforms are currently enabling non-programmers to write apps just like Wix, et al, did to allow non-designers to build websites. 
